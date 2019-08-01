@@ -1,0 +1,70 @@
+body {
+  background-color: rgb(150, 140, 120);
+  overflow-y: scroll;
+}
+
+#login {
+margin: auto;
+text-align: center;
+border-style: solid;
+border-width: 1px;
+width: 50%;
+padding: 10px;
+border-color: rgb(30, 30, 30);
+background-color: rgb(200, 190, 170);
+}
+#map {
+height: 100%;
+}
+
+#map_container{
+margin: auto;
+text-align: center;
+border-style: solid;
+border-width: 1px;
+width: 60%;
+padding: 10px;
+border-color: rgb(30, 30, 30);
+background-color: rgb(200, 190, 170);
+}
+
+#banner_div{
+position: relative;
+overflow: hidden;
+background-color: rgb(120, 115, 100);
+border: solid;
+border-color: rgb(100, 90, 75);
+}
+
+#banner{
+margin-left: 50%;
+transform: translateX(-50%);
+}
+
+#tabs{
+background-color: rgb(200, 190, 170);
+}
+
+.navbtn{
+font-weight: bold;
+font-size: 20px;
+width: 24.67%;
+height: 50px;
+background-color: rgb(200, 190, 170);
+border: none;
+}
+
+.navbtn:hover{
+background-color: rgb(120, 115, 100);
+}
+
+.general_div{
+margin: auto;
+text-align: center;
+border-style: solid;
+border-width: 1px;
+width: 60%;
+padding: 10px;
+border-color: rgb(30, 30, 30);
+background-color: rgb(200, 190, 170);
+}

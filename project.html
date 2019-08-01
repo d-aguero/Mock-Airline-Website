@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Final Project API Example</title>
+    <script src="http://www.cs.unc.edu/~kmp/comp426fall18/jquery-3.3.1.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyALip0coyf3oc8tSG4ZLV8OuvK9avDh1R0&callback=initMap"
+    async defer></script>
+    <script src="./script.js"></script>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+
+
+  <body>
+    <!-- This is just for containing the website's banner. -->
+    <div id='banner_div'>
+      <img id='banner' src='https://previews.123rf.com/images/dragunov/dragunov1211/dragunov121100003/16462346-view-from-the-airport-terminal-vector-banner.jpg'>
+    </div>
+    
+    <!-- This contains buttons which, when pressed, change the page contents.
+    They're disabled at first, then enabled once the user has logged in-->
+    <div id='tabs'>
+      <button class='navbtn' id='infopage_btn' disabled>Info page</button>
+      <button class='navbtn' id='booking_btn' disabled>Book a flight</button>
+      <button class='navbtn' id='tickets_btn' disabled>Your tickets</button>
+      <button class='navbtn' id='maps_btn' disabled>View maps</button>
+    </div>
+    
+    <br>
+    
+    <!-- "Content" div contains everything else. -->
+    <div id='content'>
+      <div id='login'>
+        <h1>
+        Welcome! Please log in below:
+        </h1>
+        <div>Username: <input id='user' type='text'></div>
+        <div>Password: <input id='pass' type='text'></div>
+        <button id='login_btn'>Login</button>
+      </div>
+    </div>
+    
+  </body>
+</html>
